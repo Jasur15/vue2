@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: 30px auto;
+}
+img{
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+input{
+    border: none;
+    outline: none;
+    background-color: aqua;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    border: none;
+    margin-top: 15px;
+    background-color: green;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.box{
+    margin: 0 auto;
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.card{
+    background-color: greenyellow;
+    padding: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
